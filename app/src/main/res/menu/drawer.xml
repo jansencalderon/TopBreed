@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_products"
+                android:checked="true"
+                android:icon="@drawable/ic_shopping_cart"
+                android:title="Products" />
+            <item
+                android:id="@+id/nav_rewards"
+                android:checked="false"
+                android:icon="@drawable/ic_medal"
+                android:title="Rewards" />
+            <item
+                android:id="@+id/nav_dogs"
+                android:checked="false"
+                android:icon="@drawable/ic_dog"
+                android:title="Dog Records" />
+            <item
+                android:id="@+id/nav_mem"
+                android:icon="@drawable/ic_animal_paw_print"
+                android:checked="false"
+                android:title="Memories" />
+            <item
+                android:id="@+id/nav_care"
+                android:checked="false"
+                android:icon="@drawable/ic_care"
+                android:title="Dog Care" />
+        </group>
+
+</menu>
